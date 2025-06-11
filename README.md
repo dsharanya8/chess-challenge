@@ -1,9 +1,5 @@
 # chess-challenge
 
-A little help on CLI features was referred like clear screen and how I can take inputs gracefully.
-
-# Chess CLI Game
-
 A simple command-line interface (CLI) Chess game written in TypeScript.
 
 ## Features
@@ -29,29 +25,17 @@ A simple command-line interface (CLI) Chess game written in TypeScript.
    cd <repo-directory>
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
 Install development dependencies (for running TypeScript files directly):
 
-bash
-Copy
-Edit
 npm install ts-node typescript @types/node --save-dev
 Running the Game
 Start the game with:
 
-bash
-Copy
-Edit
 npx ts-node src/cli.ts
 How to Play
 Enter moves in standard algebraic notation for squares, for example:
 
-nginx
-Copy
-Edit
 E2 E4
 D7 D5
 To quit the game at any time, type exit or quit.
@@ -62,3 +46,6 @@ To quit the game at any time, type exit or quit.
 - unit test cases 
 - valid moves 
 - better front end representation.
+
+## PS 
+A little help on CLI features was referred like clear screen and how I can take inputs.
